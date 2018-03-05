@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "page/index/index",
+    "page/subject/subject",
+    "page/user/user",
+    "page/movie-detail/detail",
+    "page/subject-detail/subject-detail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "急速预告",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "page/index/index",
+        "text": "首页",
+        "iconPath": "assets/image/index.png",
+        "selectedIconPath": "assets/image/index-active.png"
+      },
+      {
+        "pagePath": "page/subject/subject",
+        "text": "分类",
+        "iconPath": "assets/image/subject.png",
+        "selectedIconPath": "assets/image/subject-active.png"
+      },
+      {
+        "pagePath": "page/user/user",
+        "text": "我的",
+        "iconPath": "assets/image/user.png",
+        "selectedIconPath": "assets/image/user-active.png"
+      }
+    ]
+  }
+}

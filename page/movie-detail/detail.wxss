@@ -1,0 +1,43 @@
+.movie-content {
+  padding: 20rpx 25rpx;
+}
+
+.movie-content view {
+  margin: 30rpx 0;
+}
+
+.title {
+  font-size: 50rpx;
+  font-weight: bold;
+}
+
+.pubdate {
+  font-size: 28rpx;
+  color: #777;
+}
+
+.type {
+  font-size: 28rpx;
+  color: #777;
+}
+
+.summary {
+  font-size: 30rpx;
+  color: #555;
+  line-height: 1.5em;
+}
+
+.tags {
+  margin-top: 60rpx;
+  overflow: hidden;
+}
+.tags text {
+  padding: 10rpx 12rpx;
+  border: 1px solid #ccc;
+  text-align: center;
+  border-radius: 2px;
+  margin: 10rpx;
+  font-size: 26rpx;
+  color: #444;
+  float: left;
+}

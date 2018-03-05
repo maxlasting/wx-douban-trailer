@@ -1,0 +1,10 @@
+<view class="container">
+  <view class="user-info" bindtap="getUserInfo">
+    <image class="avatar" src="{{avatarUrl}}"></image>
+    <text class="name">{{nickName}}</text>
+  </view>
+
+  <view class="history">
+    <text>观看历史</text>
+  </view>
+</view>

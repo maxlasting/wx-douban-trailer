@@ -1,0 +1,6 @@
+<view class="container">
+  <view class="type-item" wx:for="{{types}}" wx:key="{{index}}" data-type="{{item.name}}" bindtap="tapTypeHandle">
+    <image class="type-img" src="{{item.img}}" mode="aspectFill"></image>
+    <text class="type-title">{{item.name}}</text>
+  </view>
+</view>
