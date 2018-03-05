@@ -1,5 +1,5 @@
 <view class="container">
-  <view class="user-info" bindtap="getUserInfo">
+  <view class="user-info">
     <image class="avatar" src="{{avatarUrl}}"></image>
     <text class="name">{{nickName}}</text>
   </view>
