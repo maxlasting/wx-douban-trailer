@@ -18,11 +18,7 @@ Page({
   },
 
   onShow() {
-    this.setData({ movies: [] })
-
     let history = wx.getStorageSync('history')
-
-    console.log(history)
 
     if (history) {
       this.setData({
