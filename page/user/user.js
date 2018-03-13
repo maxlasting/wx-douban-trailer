@@ -33,6 +33,12 @@ Page({
     })
   },
 
+  gotoShare () {
+    wx.navigateTo({
+      url: '../share/share',
+    })
+  },
+
   gotoDetail(e) {
     const { movieData } = e.currentTarget.dataset
     const { _id } = movieData

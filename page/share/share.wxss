@@ -1,0 +1,18 @@
+/* page/share/share.wxss */
+
+page {
+  height: 100%;
+}
+
+image {
+  display: block;
+  margin-top:80rpx;
+  width: 100%;
+}
+
+.info {
+  margin-top: 100rpx;
+  text-align: center;
+  color: #666;
+  font-size: 32rpx;
+}

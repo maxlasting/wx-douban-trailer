@@ -5,7 +5,8 @@
     "page/user/user",
     "page/movie-detail/detail",
     "page/subject-detail/subject-detail",
-    "page/history-list/history-list"
+    "page/history-list/history-list",
+    "page/share/share"
   ],
   "window": {
     "navigationBarBackgroundColor": "#ffffff",

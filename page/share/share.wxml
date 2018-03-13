@@ -1,0 +1,5 @@
+<!--page/share/share.wxml-->
+<image src="{{imgUrl}}" mode="aspectFit" bindtap="saveQRCode"></image>
+<view class="info">
+  <text>点击保存二维码分享给好友吧!</text>
+</view>

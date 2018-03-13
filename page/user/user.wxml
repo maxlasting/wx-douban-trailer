@@ -4,7 +4,7 @@
     <text class="name">{{nickName}}</text>
   </view>
 
-  <view class="share">
+  <view class="share" bindtap="gotoShare">
     <text>分享小程序</text>
     <image src="/assets/image/more.png" mode="aspectFit"></image>
   </view>
