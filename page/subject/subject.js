@@ -19,10 +19,6 @@ Page({
         img: '/assets/image/aiqing.png'
       },
       {
-        name: '惊悚',
-        img: '/assets/image/jingsong.png'
-      },
-      {
         name: '动画',
         img: '/assets/image/donghua.png'
       }

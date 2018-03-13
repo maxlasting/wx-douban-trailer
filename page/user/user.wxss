@@ -26,8 +26,56 @@ page {
   text-align: center;
 }
 
-.history {
+.history, 
+.share {
   padding: 40rpx 30rpx;
   background-color: #fff;
   font-size: 30rpx;
+  margin-bottom: 20rpx;
+  position: relative;
+}
+
+.history image, 
+.share image {
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  right: 20rpx;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.history-list {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 20rpx;
+  background-color: #fff;
+}
+
+.movie-item {
+  width: 48%;
+  margin: 1%; 
+  float: left;
+}
+
+.movie-item .poster {
+  width: 100%;
+}
+
+.movie-item .title {
+  font-size: 28rpx;
+  text-align: center;
+  color: #333;
+  margin: 5rpx 0;
+}
+
+.movie-item .title .rate {
+  color: #f00;
+}
+
+.movie-item .year-type {
+  text-align: center;
+  font-size: 20rpx;
+  color: #888;
 }

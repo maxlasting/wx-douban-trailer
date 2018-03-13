@@ -1,3 +1,4 @@
 <import src="/common/template/list.wxml"/>
 
-<template is="movie-list" data="{{movies, loading}}"/>
+<template is="movie-list" wx:if="{{movies.length}}" data="{{movies, loading }}"/>
+
