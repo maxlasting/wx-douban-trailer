@@ -1,6 +1,6 @@
 Page({
   data: {
-    imgUrl: 'https://www.newfq.com/api/douban/temp/code.png'
+    imgUrl: 'https://www.newfq.com/assets/wx/movie-trailer/QRcode.png'
   },
   saveQRCode () {
     const { imgUrl } = this.data

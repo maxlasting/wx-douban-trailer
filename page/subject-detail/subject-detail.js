@@ -1,3 +1,5 @@
+import cfg from '../../common/config/index.js'
+
 Page({
   data: {
     movies: [],
@@ -18,14 +20,12 @@ Page({
   saveData(data) {
     let history = wx.getStorageSync('history') || []
 
-    const ret = history.every((item) => {
+    history = history.filter((item) => {
       return item._id !== data._id
     })
 
-    if (ret) {
-      history.unshift(data)
-      wx.setStorageSync('history', history)
-    }
+    history.unshift(data)
+    wx.setStorageSync('history', history)
   },
 
   loadMovies() {
@@ -41,7 +41,7 @@ Page({
     })
 
     wx.request({
-      url: `https://www.newfq.com/doubanapi/movies/info?type=${type}&page=${page}&size=${size}`,
+      url: `${cfg.domain}/list?type=${type}&page=${page}&size=${size}`,
       success: (res) => {
         const { data } = res.data
         const movies = this.data.movies || []

@@ -1,14 +1,14 @@
 <view class="container">
-  <video style="width: 100%;" poster="{{cover}}" src="{{'http://douban.newfq.com/' + movie.videoKey}}" controls />
+  <video style="width: 100%;" poster="{{movie.cover}}" src="{{movie.video}}" controls />
   <view class="movie-content">
     <view class="title">
-      <text>{{movie.rawTitle}}</text>
+      <text>{{movie.title}}</text>
     </view>
     <view class="type">
-      <text>{{movie.rate}}分 / {{movie.movieTypes}}</text>
+      <text>{{movie.rate}}分 / {{movie.types}}</text>
     </view>
     <view class="pubdate">
-      上映时间: {{time}} ({{movie.pubdate[0].country}})
+      上映时间: {{movie.pubdate}} ({{movie.country}})
     </view>
     <view class="summary">
       电影简介：<text>{{movie.summary}}</text>

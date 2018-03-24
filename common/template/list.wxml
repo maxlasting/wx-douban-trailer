@@ -4,12 +4,12 @@
     <view class="list-item" wx:for="{{movies}}" wx:key="index" wx:for-item="movieData">
 
       <view class="movie-item" wx:for="{{movieData}}" wx:if="{{item}}" wx:key="{{item._id}}" bindtap="gotoDetail" data-movie-data="{{item}}">
-        <image class="poster" mode="widthFix" lazy-load="true" src="{{'http://douban.newfq.com/' + item.posterKey + '?imageMogr2/thumbnail/x1680/crop/1080x1600'}}" />
+        <image class="poster" mode="widthFix" lazy-load="true" src="{{item.poster}}" />
         <view class="title">
-          <text>{{item.rawTitle}} <text class="rate">{{item.rate}}</text></text>
+          <text>{{item.title}} <text class="rate">{{item.rate}}</text></text>
         </view>
         <view class="year-type">
-          <text>{{item.movieTypes}} / {{item.year}}</text>
+          <text>{{item.types}} / {{item.year}}</text>
         </view>
       </view>
 
